@@ -171,6 +171,10 @@ h3 {
   gap: 1.5rem;
 }
 
+.card {
+  box-shadow: 30px 30px 60px;
+}
+
 .card__header {
   display: flex;
   align-items: center;
