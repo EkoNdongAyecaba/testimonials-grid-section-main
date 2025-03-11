@@ -148,12 +148,23 @@ body {
   max-width: 1440px;
   width: 80%;
   margin-inline: auto;
+  margin-block: 15%;
   display: grid;
   grid-template-columns: 1fr;
+  font-size: 0.8125rem;
 }
 
 .attribution {
   display: none;
+}
+
+.cards__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.cards__layout * {
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=index.css.map */
